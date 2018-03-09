@@ -1,0 +1,52 @@
+.chatText{
+  font-size: 50px;
+  font-family: 'Joti One', cursive;
+}
+body{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+.center{
+  width: 700px;
+  height: 420px;
+  position: absolute;
+  top: 150px;
+}
+#textarea{
+  width: auto;
+  height: 340px;
+  margin: 10px 30px;
+  background-color: #ecf0f1;
+  color: black;
+  padding: 10px;
+  overflow: scroll;
+  position: relative;
+}
+.form{
+  width: auto;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+textarea{
+  margin: 0px 30px;
+  background-color: #ecf0f1;
+}
+button{
+  margin: 10px 0px;
+  height: 30px;
+  width: 100px;
+  font: bold 20px 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #696969, #A9A9A9);
+  border: none;
+  color: #ecf0f1;
+}
+.mesText{
+  font: bold 14px 'Montserrat', sans-serif;
+  width: 320px;
+  position: static;
+
+}

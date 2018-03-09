@@ -1,0 +1,38 @@
+body{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+.form{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 220px;
+  top: 250px;
+}
+.input{
+  margin: 5px 0px;
+  height: 30px;
+  padding-left: 7px;
+  font: 15px regular 'Montserrat', sans-serif;
+  background-color: #ecf0f1;
+  border: none;
+}
+.formp{
+  margin: 5px 0px;
+  font: bold 17px 'Montserrat', sans-serif;
+}
+button{
+  margin: 10px 0px;
+  height: 30px;
+  font: bold 20px 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #696969, #A9A9A9);
+  border: none;
+  color: #ecf0f1;
+}
+.chatText{
+  font-size: 50px;
+  font-family: 'Joti One', cursive;
+}
